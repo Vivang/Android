@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:background="@drawable/backgroud"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/chatting_setmode_voice_btn_normal"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"></EditText>
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/chatting_biaoqing_btn_normal"/>
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/type_select_btn_nor"/>
+    </LinearLayout>
+</LinearLayout>

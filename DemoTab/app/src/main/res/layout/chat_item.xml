@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:padding="8dp"
+    android:background="@drawable/backgroud">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/chat_item_img"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/head"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/chat_item_img">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chat_item_title"
+            android:text="某人"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chat_item_information"
+            android:text="最新生成的信息"
+            android:paddingLeft="16dp"
+            android:textColor="#777"
+            android:layout_below="@id/chat_item_title"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

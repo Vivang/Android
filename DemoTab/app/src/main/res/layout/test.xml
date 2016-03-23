@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f0eb">
+
+    <TextView
+        android:maxWidth="225.0dip"
+        android:id="@+id/tv_chatcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/balloon_l"
+        android:autoLink="web"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="12dp"
+        android:gravity="center"
+        android:lineSpacingExtra="2dp"
+        android:textColor="#252424"
+        android:textSize="15sp"
+        android:text="hjkhkjhfjksddfhsdgsdfg"/>
+</RelativeLayout>
